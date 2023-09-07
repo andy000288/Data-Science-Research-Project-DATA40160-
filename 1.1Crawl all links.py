@@ -74,7 +74,7 @@ for label, website in websites.items():
             break
 
     if not has_scorecards:
-        print(f"{label} 没有符合要求的比赛。")
+        print(f"{label} There are no matching matches.")
 
     # Store URLs along with label
     all_page_urls.append((label, page_urls))
